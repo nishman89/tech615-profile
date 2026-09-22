@@ -1,11 +1,13 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8">
+    <meta name="author" content="Nish Mandal">
     <title>My projects</title>
     <link href="profileStyle.css" rel="stylesheet">
 </head>
+
 <body>
     <nav>
         <ul>
@@ -14,29 +16,50 @@
             <li><a href="https://www.linkedin.com/in/peter-bellaby-40b93022b/" target="_blank">My LinkedIn</a></li>
         </ul>
     </nav>
+
+    <header>
+        <div class="container">
+            <div>
+                <p class="kicker">The back catalogue</p>
+                <h1>Projects</h1>
+                <h2>Discography</h2>
+                <p class="venue-line">Two releases so far &mdash; more on the way</p>
+            </div>
+        </div>
+    </header>
+
     <section>
-        <h1>Projects</h1>
-        <table>
-            <thead>
-                <tr>
-                    <th>Project Name</th>
-                    <th>Description</th>
-                    <th>Year</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Agile Project</td>
-                    <td>Did some stuff with user stories</td>
-                    <td>2023</td>
-                </tr>
-                <tr>
-                    <td>Safari Park Project</td>
-                    <td>Demonstrated polymorphism</td>
-                    <td>2023</td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="container">
+            <div class="section-head">
+                <span class="num">01</span>
+                <h3>Discography</h3>
+            </div>
+
+            <div class="discography">
+                <article class="record">
+                    <span class="catalog">01</span>
+                    <div>
+                        <h4>Agile Project</h4>
+                        <p>Did some stuff with user stories</p>
+                    </div>
+                    <span class="year">2023</span>
+                </article>
+
+                <article class="record">
+                    <span class="catalog">02</span>
+                    <div>
+                        <h4>Safari Park Project</h4>
+                        <p>Demonstrated polymorphism</p>
+                    </div>
+                    <span class="year">2023</span>
+                </article>
+            </div>
+        </div>
     </section>
+
+    <footer>
+        <small>Copyright &#169; Sparta Global 2026 <cite>by Nish Mandal</cite></small>
+    </footer>
 </body>
+
 </html>
